@@ -4,15 +4,20 @@
 
 > [3.51.0] - `2025-11-04`
 >
-> - Simplified `display_device_info` in `customize.sh` by removing `device_capitalized` variable and directly printing device/model info without capitalization.
-> - Removed `display_ram_info`, `android_version_check`, `architecture_check`, `module_remove_check`, and `sqlite_prjkt` functions from `customize.sh` for streamlined installation flow.
-> - Updated `extract_files` in `customize.sh` to include extraction of documentation files (`CHANGELOG.md`, `README.md`, `LICENSE`) alongside architecture-specific binaries (`aarch64.so`, `armv7a.so`, `x86_64.so`, `x86.so`).
-> - Modified `set_permissions` in `customize.sh` to only apply executable permissions to `service.sh`, removing references to other EXEC_FILES.
-> - Increased random devil-themed messages to 15 variants in `print_random_devil_message` and simplified `ui_print` messages to single-word devil names without descriptions.
-> - Simplified `detect_abi` in `service.sh` by removing `dst_arch` variable and focusing solely on `src_arch` detection.
-> - Updated binary copying logic in `service.sh` to source from `$MODDIR/$src_arch.so` and copy directly to `libsqlite3.so`.
-> - Changed destination directory detection in `service.sh` to locate based on `libtoybox.so` path instead of fixed `$app_dir/lib/$dst_arch`.
-> - Removed `set -e` and changed shebang from `#!/system/bin/sh` to `#!/bin/sh` in `service.sh` for broader compatibility.
-> - Removed initial command availability checks (`for cmd in unzip sha1sum ...`) in `verify.sh` as they are now assumed available.
-> - General code cleanup: improved error handling, removed redundant variables, enhanced fallback logic in ABI detection, and ensured consistent formatting across scripts.
+> - Enhanced APatch detection in `customize.sh` and `service.sh` with detailed version fetching: VAPK from `dumpsys package`, VKER from GitHub API `curl`, and storage in `/data/adb/ap/kernelver` for consistent `ROOT_VERSION` formatting.
+> - Added `display_ram_info` function in `customize.sh` to log available and total RAM using `free -h`.
+> - Updated `display_device_info` in `customize.sh` to include full model name and capitalized device code for better logging.
+> - Added `android_version_check` in `customize.sh` to detect and display Android version with SDK codenames (e.g., Q, R, S) and corresponding emojis.
+> - Introduced `architecture_check` in `customize.sh` to print device architecture using `getprop ro.product.cpu.abi` or `uname -m`.
+> - Expanded `extract_files` in `customize.sh` to handle extraction of multiple architecture-specific binaries (`aarch64.so`, `armv7a.so`, `x86_64.so`, `x86.so`) alongside other files like `service.sh`, `run.sh`, `uninstall.sh`, `README.md`, and `LICENSE`.
+> - Increased random devil-themed messages to 15 variants in `print_random_devil_message` in `customize.sh` with a more concise single-line `case` statement.
+> - Renamed and refactored `print_time` to `display_current_time` and `print_device` to `display_device_info` in `customize.sh` for consistency.
+> - Moved core logic from `service.sh` (old) to a new `run.sh` script, which now handles ABI detection, binary copying with fallback to BusyBox, and prioritizes `libtoybox.so` path for placement.
+> - Updated `service.sh` to include a random emoji generator for updating the `author` field in `module.prop` (e.g., `@illumi (smiling face with tongue)`).
+> - Modified `service.sh` to append `[REBUILD]` to version in `module.prop` only if not already present, and wait for boot completion with a 120-second timeout before executing `run.sh` via `nohup`.
+> - Enhanced ABI detection in `run.sh` to consolidate `armeabi-v7a` and `armeabi` under `armv7a`, and added fallback copying using `busybox cp` if standard `cp` fails.
+> - Added post-install compilation with `pm compile -f -m speed` for the target package in `run.sh` to optimize performance.
+> - Removed initial command availability checks (`unzip`, `sha256sum`, etc.) in `verify.sh` as they are assumed present.
+> - Enhanced `extract` function in `verify.sh` with multi-algorithm hash support (`sha512`, `sha384`, `sha256`, `sha224`, `sha1`) and automatic fallback, including detailed error messages with expected and actual hashes.
+> - General code cleanup: improved variable handling, added error exits, ensured compatibility with various architectures, and refined installation notifications and permissions in `customize.sh`.
 ---
