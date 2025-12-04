@@ -2,6 +2,15 @@
 > - All significant changes to this project will be documented here.
 ---
 
+> [3.51.1] - `2025-11-28`
+>
+> - Updated `libsqlite3.so` to the latest version `3.51.1`.
+> - Removed the `[REBUILD]` section in module.prop.
+> - Changed the module banner for `KSUN` users.
+> - Moved the function from `run.sh` to `customize.sh and removed the code section to run `run.sh` in `service.sh`.
+> - And a few code changes I didn't mention.
+---
+
 > [3.51.0] - `2025-11-04`
 >
 > - Enhanced APatch detection in `customize.sh` and `service.sh` with detailed version fetching: VAPK from `dumpsys package`, VKER from GitHub API `curl`, and storage in `/data/adb/ap/kernelver` for consistent `ROOT_VERSION` formatting.
