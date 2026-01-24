@@ -1,4 +1,4 @@
-> ![Image](https://github.com/user-attachments/assets/1291b94b-bf19-451d-965b-3a77d217b62f)
+> ![Image](https://github.com/user-attachments/assets/cb1f5433-2591-4948-931a-e33c80f9fbe9)
 
 > [!NOTE]
 > - This Magisk module is designed to update the `libsqlite` library used by the `SD Maid` app on Android devices.
@@ -9,13 +9,13 @@
 > 1. Supports `ARM64`, `ARMv7a`, `x86`, and `x86_64` architectures. ✔️
 > 2. Automatic architecture detection for seamless library installation. ✔️
 > 3. Deletes unused binary files automatically to optimize storage. ✔️
-> 4. Libsqlite version: `3.51.1`. ✔️
+> 4. Libsqlite version: `3.51.2`. ✔️
 > 5. Optimizes SD Maid performance with speed compilation and process priority adjustments. ✔️
 > 6. You can also update your SQLite3 database with this module [SQLite3 for Android](https://github.com/DEMONNICA/SQLite3-for-Android.git). ✔️
 <hr/>
 
 > [!TIP]
-> 1. Supports `Magisk` `KernelSU - NEXT` `APatch` dan `SukiSU`.
+> 1. Supports `Magisk` `APatch` `SukiSU` `KernelSU` and `other variants`.
 > 2. Minimum Android `10 sdk 29`.
 > 3. Download the app [SD Maid](https://play.google.com/store/apps/details?id=eu.thedarken.sdm).
 <hr/>
@@ -45,6 +45,7 @@ You can also show further appreciation by donating below
 <hr/>
 
 [![Ko-Fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/illumi666)
-[![](https://img.shields.io/badge/-Trakteer-red?style=for-the-badge)](https://trakteer.id/demonica/tip)
-[![Saweria](https://img.shields.io/badge/-Saweria-yellow?style=for-the-badge&logoColor=white)](https://saweria.co/DEMONICA)
-[![Paypal](https://img.shields.io/badge/Paypal-blue?style=for-the-badge&logoColor=white)](https://www.paypal.com/paypalme/faniadittiya)
+[![Sociabuzz](https://img.shields.io/badge/Sociabuzz-FF6B2A?style=for-the-badge&logo=sociabuzz&logoColor=white)](https://sociabuzz.com/demonica/tribe)
+[![Trakteer](https://img.shields.io/badge/Trakteer-FF0000?style=for-the-badge)](https://trakteer.id/demonica/tip)
+[![Saweria](https://img.shields.io/badge/Saweria-FFC107?style=for-the-badge&logoColor=black)](https://saweria.co/DEMONICA)
+[![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://www.paypal.com/paypalme/faniadittiya)
