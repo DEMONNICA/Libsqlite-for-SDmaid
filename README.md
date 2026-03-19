@@ -2,7 +2,7 @@
 
 > [!NOTE]
 > ```
-> - Replaces SD Maid's bundled libsqlite3 with an optimized native build for better performance and compatibility.
+> Replaces SD Maid's bundled libsqlite3 with an optimized native build for better performance and compatibility.
 > ```
 
 > [!IMPORTANT]
