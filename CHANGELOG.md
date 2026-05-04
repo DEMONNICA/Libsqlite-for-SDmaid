@@ -2,10 +2,24 @@
 > - All significant changes to this project will be documented here.
 ---
 
+> [3.53.0] - `2026-04-09`
+>
+> - Updated `libsqlite3.so` to the latest version `3.53.0`.
+> - Updated `README.md` feature list to reflect current extraction behavior.
+> - Fixed `post_install_actions` missing `NAME_MODULE` definition.
+> - Fixed `local var=$(...)` declarations for better shell compatibility.
+> - Improved `customize.sh` ABI detection with `getprop` as primary and `uname -m` as fallback.
+> - Improved `verify.sh` with `clean_path()` sanitization and multi-algorithm hash verification support.
+> - Removed `SKIPUNZIP=1` and `DEBUG=false` from `customize.sh`.
+> - Added `FolkLite` (`mi.yuki.folk`) detection in APatch section.
+> - Added numbered comments throughout `customize.sh` for better readability.
+---
+
 > [3.51.3] - `2026-03-13`
 >
 > - License Changes.
 > - Changed the structure of `README.md` for a better impression.
+> - Updated `libsqlite3.so` to the latest version `3.51.3`.
 > - Updated module `description` for better clarity.
 > - Updated `customize.sh` and `verify.sh` for better future performance.
 > - Improved `customize.sh` ABI detection and file extraction based on architecture.
