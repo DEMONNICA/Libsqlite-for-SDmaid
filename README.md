@@ -1,4 +1,4 @@
-> ![Image](https://github.com/user-attachments/assets/cb1f5433-2591-4948-931a-e33c80f9fbe9)
+> <img width="3264" height="1836" alt="Image" src="https://github.com/user-attachments/assets/953df47f-e820-4df6-8c64-d9f09885408d" />
 
 > [!NOTE]
 > ```
@@ -8,15 +8,14 @@
 > [!IMPORTANT]
 > Features ✨:
 > 1. Supports `ARM64`, `ARMv7a`, `x86`, and `x86_64` architectures.
-> 2. Automatic architecture detection for seamless library installation.
-> 3. Deletes unused binary files automatically to optimize storage.
-> 4. Libsqlite version: `3.51.3`.
-> 5. Optimizes SD Maid performance with speed compilation and process priority adjustments.
-> 6. You can also update your SQLite3 database with this module [SQLite3 for Android](https://github.com/DEMONNICA/SQLite3-for-Android.git).
+> 2. Extracts only the required architecture library.
+> 3. Libsqlite version: `3.53.0`.
+> 4. Optimizes SD Maid performance with speed compilation and process priority adjustments.
+> 5. You can also update your SQLite3 database with this module [SQLite3 for Android](https://github.com/DEMONNICA/SQLite3-for-Android.git).
 
 > [!TIP]
-> 1. Supports `Magisk` `APatch` `SukiSU` `KernelSU` and `other variants`.
-> 2. Minimum Android `10 sdk 29`.
+> 1. Supports `Magisk` `KernelSU` `KernelSU Next` `APatch` `SukiSU` and their variants.
+> 2. Minimum Android `10 SDK 29`.
 > 3. Download the app [SD Maid](https://play.google.com/store/apps/details?id=eu.thedarken.sdm).
 
 > [!WARNING]
@@ -35,7 +34,7 @@
 > 6. Rooted devices with custom ROM may behave differently. Proceed with extra caution.
 > 7. Any modification applied to the system is your decision. Think before you act.
 
-> Download 📦:        
+> Download 📦:
 > - [Download now Libsqlite for SD Maid.](https://shrinkme.click/G295W)
 > - [For Magisk Modules or other Plugins, please visit here.](https://t.me/Demoniica)
 ----
