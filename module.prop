@@ -1,7 +1,7 @@
 id=SDMAID
 name=Libsqlite for SD Maid
-version=3.53.0
-versionCode=20260409
+version=3.53.4 (20260724)
+versionCode=3534
 author=@illumi
-description=Replaces SD Maid's bundled libsqlite3 with an optimized native build for better performance and compatibility.
+description=Replaces SD Maid's built-in SQLite library with the latest official build.
 banner=https://raw.githubusercontent.com/DEMONNICA/Libsqlite-for-SDmaid/refs/heads/main/SDMAID.jpg
