@@ -1,40 +1,33 @@
-> <img width="3264" height="1836" alt="Image" src="https://github.com/user-attachments/assets/953df47f-e820-4df6-8c64-d9f09885408d" />
+> <img width="3264" height="1836" alt="Image" src="https://github.com/user-attachments/assets/a3f6916e-e952-4e6b-9a62-574f9a91392b" />
 
 > [!NOTE]
 > ```
-> Replaces SD Maid's bundled libsqlite3 with an optimized native build for better performance and compatibility.
+> Replaces SD Maid's built-in SQLite library with the latest official build.
 > ```
 
 > [!IMPORTANT]
 > Features ✨:
 > 1. Supports `ARM64`, `ARMv7a`, `x86`, and `x86_64` architectures.
-> 2. Extracts only the required architecture library.
-> 3. Libsqlite version: `3.53.0`.
-> 4. Optimizes SD Maid performance with speed compilation and process priority adjustments.
-> 5. You can also update your SQLite3 database with this module [SQLite3 for Android](https://github.com/DEMONNICA/SQLite3-for-Android.git).
+> 2. Ships with the latest SQLite library build `3.53.4`.
+> 3. Automatically improves SD Maid performance after each reboot.
 
 > [!TIP]
-> 1. Supports `Magisk` `KernelSU` `KernelSU Next` `APatch` `SukiSU` and their variants.
+> 1. Supports `APatch` `KernelSU` `Magisk` and their forks.
 > 2. Minimum Android `10 SDK 29`.
 > 3. Download the app [SD Maid](https://play.google.com/store/apps/details?id=eu.thedarken.sdm).
+> 4. Can be combined with [SQLite3 for Android](https://github.com/DEMONNICA/SQLite3-for-Android.git) to also update the system-wide SQLite3 database.
 
 > [!WARNING]
+> 1. If you do not fully understand what a modification does, do not apply it.
+> 2. Always have a recovery solution ready — TWRP, ADB, or fastboot — before proceeding.
+> 3. Rooted devices with custom ROM may behave differently. Proceed with extra caution.
+> 4. System modifications can be unpredictable. What works on one device may break another.
+> 5. Any modification applied to the system is your decision. Think before you act.
+> 6. The developer takes no responsibility for any damage, data loss, or device malfunction caused by the use of these works.
+> 7. Redistribution, modification, or repackaging of these works without explicit permission from the author is strictly prohibited.
+
+> [!CAUTION]
 > Disclaimers 🛡️:
 > - Use at your own risk. No guarantees are made regarding stability, compatibility, or safety. Always back up your data before installing anything.
 > - These works are tested on specific devices only. Behavior on other devices may vary significantly.
 > - The author reserves the right to discontinue, modify, or remove any module or plugin at any time without prior notice.
-
-> [!CAUTION]
-> Warning ☢️:
-> 1. The developer takes no responsibility for any damage, data loss, or device malfunction caused by the use of these works.
-> 2. System modifications can be unpredictable. What works on one device may break another.
-> 3. Always have a recovery solution ready — TWRP, ADB, or fastboot — before proceeding.
-> 4. If you do not fully understand what a modification does, do not apply it.
-> 5. Redistribution, modification, or repackaging of these works without explicit permission from the author is strictly prohibited.
-> 6. Rooted devices with custom ROM may behave differently. Proceed with extra caution.
-> 7. Any modification applied to the system is your decision. Think before you act.
-
-> Download 📦:
-> - [Download now Libsqlite for SD Maid.](https://shrinkme.click/G295W)
-> - [For Magisk Modules or other Plugins, please visit here.](https://t.me/Demoniica)
-----
