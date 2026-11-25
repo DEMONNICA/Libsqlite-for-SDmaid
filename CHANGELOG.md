@@ -2,6 +2,16 @@
 > - All significant changes to this project will be documented here.
 ---
 
+> [3.54.1] - `2026-10-16`
+>
+> - Added `FinaSU` (`me.yuki.fina`), `Aster` (`me.yuki.aster`), `BakaSU`, and `SukiSU Nova` (`com.sukisu.nova`) detection in `detect_root_all`.
+> - Added Android SDK validation in `device_info` — aborts if SDK value is empty or non-numeric.
+> - Changed APatch detection condition order in `detect_root_all` to check the directory first, consistent with KernelSU and Magisk.
+> - Changed `device_info` RAM labeling to include `16GB`.
+> - Changed `libsqlite3.so` to the latest version `3.54.1`.
+> - Removed `FolkLite`, `VortexSU`, `Kokoro Mask`, and `SukiSU Ultra` detection in `detect_root_all`.
+---
+
 > [3.53.4] - `2026-07-24`
 >
 > - Added `VortexSU` and `Kokoro Mask` detection in `detect_root_all`.
