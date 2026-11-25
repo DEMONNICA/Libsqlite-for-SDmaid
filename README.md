@@ -7,15 +7,21 @@
 
 > [!IMPORTANT]
 > Features ✨:
-> 1. Supports `ARM64`, `ARMv7a`, `x86`, and `x86_64` architectures.
-> 2. Ships with the latest SQLite library build `3.53.4`.
+> 1. Includes the latest official SQLite build `3.54.1`.
+> 2. Improves SD Maid performance and stability.
 > 3. Automatically improves SD Maid performance after each reboot.
+> 4. Supports `ARM64`, `ARMv7a`, `x86`, and `x86_64` architectures.
 
 > [!TIP]
 > 1. Supports `APatch` `KernelSU` `Magisk` and their forks.
 > 2. Minimum Android `10 SDK 29`.
 > 3. Download the app [SD Maid](https://play.google.com/store/apps/details?id=eu.thedarken.sdm).
-> 4. Can be combined with [SQLite3 for Android](https://github.com/DEMONNICA/SQLite3-for-Android.git) to also update the system-wide SQLite3 database.
+> 4. <details>
+>    <summary>Compatible module combination</summary>
+>
+>    [SQLite3 for Android](https://github.com/DEMONNICA/SQLite3-for-Android.git)
+>
+>    </details>
 
 > [!WARNING]
 > 1. If you do not fully understand what a modification does, do not apply it.
